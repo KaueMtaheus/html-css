@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(101, 70, 70);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(255, 0, 0);
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        .especial::before {
+            content: '=>';
+            color: rgb(94, 96, 98);
+        }
+
+        .especial::after {
+            content: '<=';
+            color: rgb(94, 96, 98);
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/KaueMtaheus" class="especial" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.facebook.com/kaue.matheus.75470/" target="_blank">facebook</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+    </ul>    
+</body>
+</html>
