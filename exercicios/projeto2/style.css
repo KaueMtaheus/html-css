@@ -2,15 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Sriracha', 'cursive';
+}
+
 * {
     margin: 0px;
-    padding: 0px;        
+    padding: 0px;
 }
 
 html, body {
     min-height: 100%;
-    background-color: orangered;
-    font-family: 'Sriracha', cursive;
+    background-color: rgb(235, 200, 200);
+    font-family: var(--font1);
 }
 
 header {
@@ -22,6 +27,7 @@ header {
 header h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 3em;
 }
 
 header p {
@@ -43,15 +49,19 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 3.5vw;
 }
 
 section.normal {
     background-color: #ffff;
     color: black;
+    font-size: 3.2vw;
 
 }
 
 section.imagens {
+    display: inline-block;
     background-color: rgb(78, 77, 77);
     color: #ffff;
 
@@ -60,6 +70,7 @@ section.imagens {
 section.imagens > p {
     background-color: rgba(0, 0, 0, 0.27);
     width: 400px;
+    padding: 10px;
 }
 
 
