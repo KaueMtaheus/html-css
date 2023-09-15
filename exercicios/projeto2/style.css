@@ -86,11 +86,10 @@ section.normal {
 section.imagens > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.525);
-    width: 400px;
     padding: 20px;
     color: #ffff;
     border-radius: 10px;
-    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.34);;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.34);
 
 }
 
