@@ -13,21 +13,23 @@
 }
 
 html, body {
-    min-height: 100%;
-    background-color: rgb(235, 200, 200);
+    min-height: 20vh;
+    background-color:   rgb(0, 0, 0);
     font-family: var(--font1);
+    
 }
 
 header {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
 }
 
 header h1 {
+    font-family: var(--font1);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 header p {
@@ -35,7 +37,7 @@ header p {
 }
 
 a {
-    color: ghostwhite;
+    color: rgba(250, 207, 89, 0.783);
     text-decoration: none;
     font-weight: bold;
 }
@@ -50,27 +52,46 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 3.5vw;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.146);;
+    font-size: 2.5vw;
+}
+
+section p {
+    padding-bottom: 10px;
+}
+
+section#img01 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(imagens/flo2.jpg);
+    background-repeat: no-repeat;
+    background-position:  right center;
+
+}
+
+section#img02 {
+    background-attachment: fixed;
+    background-image: url(imagens/carta1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 section.normal {
-    background-color: #ffff;
+    background-color: #f5e9e9;
     color: black;
-    font-size: 3.2vw;
-
+    font-size: 3.2vw
 }
 
-section.imagens {
-    display: inline-block;
-    background-color: rgb(78, 77, 77);
-    color: #ffff;
-
-}
 
 section.imagens > p {
-    background-color: rgba(0, 0, 0, 0.27);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.525);
     width: 400px;
-    padding: 10px;
+    padding: 20px;
+    color: #ffff;
+    border-radius: 10px;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.34);;
+
 }
 
 
